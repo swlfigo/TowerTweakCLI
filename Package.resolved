@@ -1,0 +1,24 @@
+{
+  "originHash" : "dd40adf8d48a83ce28d2f55c9975b35e0885ff8d0f89be77b45e6c28f2d6773e",
+  "pins" : [
+    {
+      "identity" : "promisekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/PromiseKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "2bc44395edb4f8391902a9ff7c220471882a4d07"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "branch" : "main",
+        "revision" : "932e6cdd2a8bd2286e52ccfee18a2f04c173835d"
+      }
+    }
+  ],
+  "version" : 3
+}
