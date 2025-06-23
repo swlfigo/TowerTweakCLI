@@ -70,7 +70,6 @@ Packages
 /.swiftpm
 xcuserdata
 DerivedData/
-*.xcodeproj
 
 ### Release
 /towerTweakCLI

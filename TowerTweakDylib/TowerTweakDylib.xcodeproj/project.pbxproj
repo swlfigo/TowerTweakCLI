@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C9D932D2E055FA7008692F5 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9D932B2E055FA7008692F5 /* JRSwizzle.h */; };
+		2C9D932E2E055FA7008692F5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9D932C2E055FA7008692F5 /* JRSwizzle.m */; };
+		2C9D93302E055FD2008692F5 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2C9D932F2E055FD2008692F5 /* main.mm */; };
+		2C9D93342E056021008692F5 /* NSObject+hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9D93322E056021008692F5 /* NSObject+hook.h */; };
+		2C9D93352E056021008692F5 /* NSObject+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9D93332E056021008692F5 /* NSObject+hook.m */; };
+		2C9D93382E05628A008692F5 /* TowerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9D93372E05628A008692F5 /* TowerHeader.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C9D93192E055D1C008692F5 /* libTowerTweakDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTowerTweakDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9D932B2E055FA7008692F5 /* JRSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		2C9D932C2E055FA7008692F5 /* JRSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		2C9D932F2E055FD2008692F5 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		2C9D93322E056021008692F5 /* NSObject+hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+hook.h"; sourceTree = "<group>"; };
+		2C9D93332E056021008692F5 /* NSObject+hook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+hook.m"; sourceTree = "<group>"; };
+		2C9D93372E05628A008692F5 /* TowerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TowerHeader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C9D93172E055D1C008692F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C9D93102E055D1C008692F5 = {
+			isa = PBXGroup;
+			children = (
+				2C9D93272E055D20008692F5 /* TowerTweakDylib */,
+				2C9D931A2E055D1C008692F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C9D931A2E055D1C008692F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C9D93192E055D1C008692F5 /* libTowerTweakDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C9D93272E055D20008692F5 /* TowerTweakDylib */ = {
+			isa = PBXGroup;
+			children = (
+				2C9D93362E05624B008692F5 /* Header */,
+				2C9D93312E055FF7008692F5 /* Hook */,
+				2C9D932A2E055F99008692F5 /* Utils */,
+				2C9D932F2E055FD2008692F5 /* main.mm */,
+			);
+			path = TowerTweakDylib;
+			sourceTree = "<group>";
+		};
+		2C9D932A2E055F99008692F5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C9D932B2E055FA7008692F5 /* JRSwizzle.h */,
+				2C9D932C2E055FA7008692F5 /* JRSwizzle.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C9D93312E055FF7008692F5 /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				2C9D93322E056021008692F5 /* NSObject+hook.h */,
+				2C9D93332E056021008692F5 /* NSObject+hook.m */,
+			);
+			path = Hook;
+			sourceTree = "<group>";
+		};
+		2C9D93362E05624B008692F5 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				2C9D93372E05628A008692F5 /* TowerHeader.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C9D93152E055D1C008692F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9D932D2E055FA7008692F5 /* JRSwizzle.h in Headers */,
+				2C9D93382E05628A008692F5 /* TowerHeader.h in Headers */,
+				2C9D93342E056021008692F5 /* NSObject+hook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C9D93182E055D1C008692F5 /* TowerTweakDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9D93222E055D1C008692F5 /* Build configuration list for PBXNativeTarget "TowerTweakDylib" */;
+			buildPhases = (
+				2C9D93152E055D1C008692F5 /* Headers */,
+				2C9D93162E055D1C008692F5 /* Sources */,
+				2C9D93172E055D1C008692F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerTweakDylib;
+			packageProductDependencies = (
+			);
+			productName = TowerTweakDylib;
+			productReference = 2C9D93192E055D1C008692F5 /* libTowerTweakDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C9D93112E055D1C008692F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					2C9D93182E055D1C008692F5 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 2C9D93142E055D1C008692F5 /* Build configuration list for PBXProject "TowerTweakDylib" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C9D93102E055D1C008692F5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C9D931A2E055D1C008692F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C9D93182E055D1C008692F5 /* TowerTweakDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C9D93162E055D1C008692F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9D932E2E055FA7008692F5 /* JRSwizzle.m in Sources */,
+				2C9D93352E056021008692F5 /* NSObject+hook.m in Sources */,
+				2C9D93302E055FD2008692F5 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C9D93202E055D1C008692F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2C9D93212E055D1C008692F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C9D93232E055D1C008692F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2C9D93242E055D1C008692F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C9D93142E055D1C008692F5 /* Build configuration list for PBXProject "TowerTweakDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9D93202E055D1C008692F5 /* Debug */,
+				2C9D93212E055D1C008692F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9D93222E055D1C008692F5 /* Build configuration list for PBXNativeTarget "TowerTweakDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9D93232E055D1C008692F5 /* Debug */,
+				2C9D93242E055D1C008692F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C9D93112E055D1C008692F5 /* Project object */;
+}
