@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (hook)
-+(void)hookWeChat;
++(void)hookTower;
 @end
 
 NS_ASSUME_NONNULL_END
